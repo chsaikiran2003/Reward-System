@@ -31,10 +31,11 @@ class ApiService {
       );
       if (res.statusCode == 200) {
         final data = jsonDecode(res.body);
-        // Store userId for subsequent requests
         final prefs = await SharedPreferences.getInstance();
         await prefs.setString('server_user_id', data['userId']);
-        // Also store a bearer token by logging in with deviceId
+        if (data['token'] != null) {
+          await prefs.setString('auth_token', data['token']);
+        }
         return data;
       }
     } catch (e) {

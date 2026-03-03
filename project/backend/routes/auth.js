@@ -58,7 +58,11 @@ router.post("/device", async (req, res) => {
     user.lastSeen = new Date();
     await user.save();
 
-    res.json({ userId: user._id, deviceId: user.deviceId });
+    res.json({
+      token: sign(user._id),
+      userId: user._id,
+      deviceId: user.deviceId
+    });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

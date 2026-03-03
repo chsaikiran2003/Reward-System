@@ -1,5 +1,19 @@
 # Flutter App — Reward System
 
+## 🚀 Live Deployment
+
+| Build | URL / Location |
+|-------|----------------|
+| **Backend API** | https://reward-system-l0zi.onrender.com |
+| **APK Build** | Run `flutter build apk --release` (see Build section below) |
+| **Web Build** | Run `flutter build web --release` then deploy `build/web/` |
+
+> **Config:** `lib/config.dart` is already set to the live Render backend URL.  
+> No changes needed to run against production.
+
+---
+
+
 A Flutter mobile application featuring a real-time ad banner carousel and two reward mini-games (Scratch Card & Spin Wheel), communicating with a Node.js backend via REST API and Socket.IO.
 
 ## Stack

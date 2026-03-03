@@ -1,5 +1,23 @@
 # Backend — Node.js + Express + Socket.IO + MongoDB
 
+## 🚀 Live Deployment
+
+| Service | URL |
+|---------|-----|
+| **Backend API (Render)** | https://reward-system-l0zi.onrender.com |
+| **Health Check** | https://reward-system-l0zi.onrender.com/health |
+
+> **Note:** Render free tier spins down after inactivity — first request may take ~30 seconds.
+
+### Demo Accounts (already seeded on live server)
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | `admin@demo.com` | `admin123` |
+| Observer | `observer@demo.com` | `observer123` |
+
+---
+
+
 ## Stack
 - **Node.js** + **Express.js** — REST API
 - **Socket.IO** — Real-time WebSocket communication

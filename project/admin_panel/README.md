@@ -1,5 +1,21 @@
 # Admin Panel — React + Vite
 
+## 🚀 Live Deployment
+
+| Service | URL |
+|---------|-----|
+| **Admin Panel (Vercel)** | https://reward-system-complete1.vercel.app *(update with your actual Vercel URL)* |
+| **Backend API** | https://reward-system-l0zi.onrender.com |
+
+### Demo Credentials
+| Role | Email | Password | Access |
+|------|-------|----------|--------|
+| Admin | `admin@demo.com` | `admin123` | Full access |
+| Observer | `observer@demo.com` | `observer123` | Analytics only |
+
+---
+
+
 A full-featured admin panel for managing ad campaigns and reward mini-games with real-time analytics via Socket.IO.
 
 ## Stack

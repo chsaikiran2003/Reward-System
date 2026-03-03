@@ -4,7 +4,7 @@
 
 | Service | URL |
 |---------|-----|
-| **Admin Panel (Vercel)** | https://reward-system-complete1.vercel.app *(update with your actual Vercel URL)* |
+| **Admin Panel (Vercel)** | https://reward-system-tan.vercel.app |
 | **Backend API** | https://reward-system-l0zi.onrender.com |
 
 ### Demo Credentials

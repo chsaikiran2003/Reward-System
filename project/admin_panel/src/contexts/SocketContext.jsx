@@ -8,7 +8,7 @@ export function SocketProvider({ children }) {
   const [connected, setConnected] = useState(false)
 
   useEffect(() => {
-    const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+    const BASE = import.meta.env.VITE_API_URL || 'https://reward-system-l0zi.onrender.com'
     socketRef.current = io(BASE, { transports: ['websocket', 'polling'] })
 
     socketRef.current.on('connect', () => setConnected(true))
